@@ -1,0 +1,66 @@
+{
+  "name": "Viver sem Açúcar",
+  "short_name": "Sem Açúcar",
+  "description": "Desafios, receitas e hábitos práticos para reduzir açúcar no dia a dia. Em breve: app para revenda de produtos naturais sem estoque.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4b8d15",
+  "background_color": "#ffffff",
+  "categories": ["health", "lifestyle", "shopping", "business"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Desafio 7 dias",
+      "short_name": "Desafio",
+      "description": "Comece o desafio 7 dias sem açúcar.",
+      "url": "/#desafio",
+      "icons": [
+        {
+          "src": "/icons/shortcut-desafio.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Lista de espera (App)",
+      "short_name": "Lista",
+      "description": "Entre na lista de espera do aplicativo.",
+      "url": "/#inscricao",
+      "icons": [
+        {
+          "src": "/icons/shortcut-lista.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
